@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #EDF5E1;
+}
+
+#header{
+    height: 100px;
+    width:100%;
+    background-color: #5cdb95;
+    flex-direction: row;
+    display: flex;
+}
+
+#img{
+    width: 40%;
+}
+
+#title{
+    width: 50%;
+    font-family: 'Dancing Script', cursive ;
+    color: #EDF5E1;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+#logo{
+    margin-top: -50px;
+}
+
+#video-Container{
+    padding-left:20%;
+    padding-right:20%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#video{
+    width: 750px;
+    height: 400px;
+}
+
+#sub-video-container{
+    padding:40px;
+}
+
+#description-Container{
+    width: 100%;
+    height:400px;
+    background-color: #05386B;
+    color: #fff;
+    margin-top:5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/desc-backg.jpeg");
+    background-size: cover;
+    font-family: 'Lato';
+}
+
+#devs{
+    height:400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h2{
+    text-decoration: underline;
+    line-height: 1.0em;
+}
+
+#examples{
+    height:400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+
+
+@media screen and (max-width:1000px ){
+    #video{
+        width:500px;
+    }
+}
+
+@media screen and (max-width:820px ){
+    #video{
+        width:400px;
+        height:300px;
+    }
+}
+
+@media screen and (max-width:650px ){
+    #video{
+        width:300px;
+        height:250px;
+    }
+}
+
+@media screen and (max-width:650px ){
+    #logo{
+        margin-top: -50px;
+        margin-left: 30%;
+    }
+    #sub-video-container{
+        padding:0;
+        padding-top:20px;
+    }
+    #title{
+        visibility: hidden;
+    }
+    #logo{
+
+    }
+}
+
+@media screen and (max-width:400px ){
+    #logo{
+        margin-top: -50px;
+        margin-left: 30%;
+    }
+    #sub-video-container{
+        padding:0;
+        padding-top:20px;
+    }
+    #video-Container{
+        padding-left:16%;
+    }
+}
