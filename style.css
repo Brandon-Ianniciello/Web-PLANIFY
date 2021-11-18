@@ -70,12 +70,24 @@ body{
 
 }
 
+#gallery{
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.gallery-photo{
+    width: 400px;
+    height: 400px;
+}
+
 #description{
 
 }
 
 #devs{
-    height:400px;
+    height:420px;
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -87,7 +99,7 @@ body{
 }
 
 #examples{
-    height:400px;
+    height:1300px;
     width: 100%;
     text-align: center;
     padding-top: 25px;
